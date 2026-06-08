@@ -115,7 +115,7 @@ RT-DETR-L(COCO -> VOC) | 0.6 | 0.05 | 25
 
 This setting is our table1 results setting
 
-To ensure stability, we ran each experiment 5 times with different seeds.
+To ensure stability, we ran each experiment 5 times with different random seeds.
 
 ## Main outputs
 
