@@ -104,14 +104,14 @@ runs/grid_search/
 
 model | alpha | gamma | embedding-window
 |---|---|---|---|
-yolo11m(coco) | 0.2 | 0.005 | 25 
-yolov8s(coco) | 0.2 | 0.005 | 25
-rtdetr-l(coco) | 0.5 | 0.1 | 25
-yolov8-l-world-v2 | 0.8 | 0.05 | 25
-yolov8-s-world-v2 | 0.7 | 0.05 | 25
-yolo11m(coco -> voc) | 0.7 | 0.005 | 25
-yolov8s(coco -> voc) | 0.7 | 0.005 | 25
-rtdetr-l(coco -> voc) | 0.6 | 0.05 | 25
+YOLOv11m(COCO) | 0.2 | 0.005 | 25 
+YOLOv8s(COCO) | 0.2 | 0.005 | 25
+RT-DETR-L(COCO) | 0.5 | 0.1 | 25
+YOLOv8l-World-v2 | 0.8 | 0.05 | 25
+YOLOv8s-World-v2 | 0.7 | 0.05 | 25
+YOLO11m(COCO -> VOC) | 0.7 | 0.005 | 25
+YOLOv8s(COCO -> VOC) | 0.7 | 0.005 | 25
+RT-DETR-L(COCO -> VOC) | 0.6 | 0.05 | 25
 
 This setting is our table1 results setting
 
