@@ -29,6 +29,8 @@ We use requirements.txt for our experiments; however, environment setup with req
 
 Model weights can be downloaded from the [Ultralytics model documentation](https://docs.ultralytics.com/models/).
 
+COCO->VOC model is fine-tuned woth voc dataset from coco pretrained model with ultralytics basic setting (model.train(data=VOC.yaml)) 
+
 Place the downloaded weight file in the repository or pass its path through `--weights`.
 
 ## Download LLVIP
@@ -113,8 +115,8 @@ rtdetr-l(coco -> voc) | 0.6 | 0.05 | 25
 
 This setting is our table1 results setting
 
-coco->voc model is fine-tuned from coco pretrained model with ultralytics basic setting (model.train(data=VOC.yaml)) 
-To ensure stability, we run each experiment five times.
+To ensure stability, we run each experiment 5 times.
+
 ## Main outputs
 
 Eexperiments save scene-level results and an integrated result:
