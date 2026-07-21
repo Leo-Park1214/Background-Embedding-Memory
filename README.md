@@ -261,9 +261,8 @@ runs/
 
 The repository version evaluated for the ICPR 2026 Reproducible Research Label is permanently archived at:
 
-* GitHub release: [GITHUB_RELEASE_URL]
-* DOI or SWHID: [DOI_OR_SWHID]
-
+* DOI: 10.48550/arXiv.2604.11714
+* Arxiv: https://arxiv.org/abs/2604.11714
 The archived release contains the exact source code, documentation, and configuration files associated with the reproducibility submission.
 
 ## License
