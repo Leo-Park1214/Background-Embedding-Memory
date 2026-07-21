@@ -82,7 +82,7 @@ model.train(data="VOC.yaml")
 The model weights required to reproduce the reported experiments are publicly available at:
 
 * COCO-pretrained weights: [Ultralytics model documentation](https://docs.ultralytics.com/models/)
-* COCO-to-VOC fine-tuned weights: [PUBLIC_MODEL_WEIGHTS_URL]
+* COCO-to-VOC fine-tuned weights: [Google Drive](https://drive.google.com/drive/folders/1HIBy5mrBvQDF7GKeTFqo4WOpSacVQcMK?usp=sharing)
 
 The weight links must be accessible without requesting permission or signing in.
 
