@@ -1,0 +1,15 @@
+--index-url https://download.pytorch.org/whl/cu128
+--extra-index-url https://pypi.org/simple
+
+torch==2.10.0+cu128
+torchvision==0.25.0+cu128
+torchaudio==2.10.0+cu128
+
+ultralytics>=8.3,<9
+opencv-python>=4.8
+numpy>=1.23
+pandas>=2.0
+tqdm>=4.66
+huggingface_hub>=0.20
+gdown>=5.0
+py7zr>=0.20
