@@ -27,15 +27,22 @@ def main() -> None:
         cmd = [sys.executable, "run_llvip.py", "--data-root", str(args.data_root), "--weights", args.weights, "--device", args.device, "--mode", "bem", "--alpha", str(alpha), "--gamma", str(gamma), "--output-dir", str(out)]
         print(" ".join(cmd))
         subprocess.run(cmd, check=True)
-        summary_path = out / "summary_bem.json"
-        if summary_path.exists():
-            records.append({
-                "alpha": alpha,
-                "gamma": gamma,
-                **json.loads(
-                    summary_path.read_text(encoding="utf-8")
-                )["mean"]
-            })
+        summary_path = out / "integrated_bem.json"
+        
+        if not summary_path.exists():
+            raise FileNotFoundError(
+                f"Expected result file was not created: {summary_path}"
+            )
+        
+        result = json.loads(
+            summary_path.read_text(encoding="utf-8")
+        )
+        
+        records.append({
+            "alpha": alpha,
+            "gamma": gamma,
+            **result["total"],
+        })
     (args.output_dir / "grid_search_summary.json").write_text(json.dumps(records, indent=2), encoding="utf-8")
 
 
