@@ -284,8 +284,6 @@ runs/grid_search/
 
 The metrics for an individual combination are available under the `total` field of that combination's `integrated_bem.json`.
 
-> **Implementation note:** The current grid-search runner executes every combination and writes the per-combination `integrated_bem.json` files. Before relying on `grid_search_summary.json`, ensure that the script collects `integrated_bem.json["total"]`; the per-combination files are the authoritative outputs.
-
 ### Best hyperparameter combinations
 
 | Model | Alpha | Gamma | Embedding window |
