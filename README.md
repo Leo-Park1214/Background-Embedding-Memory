@@ -346,7 +346,7 @@ The `total` field contains the final equal-weight average of the visible and inf
 Add the final permanent software identifier after archiving the RRPR release:
 
 - GitHub release: `https://github.com/Leo-Park1214/Background-Embedding-Memory/releases/tag/v1.0.0-rrpr`
-- Software DOI or SWHID: `10.5281/zenodo.21485701`
+- Software DOI or SWHID: `10.5281/zenodo.21485999`
 
 Do not replace these placeholders with an example DOI. The software DOI or SWHID must identify the archived source-code release used for the reproducibility submission.
 
